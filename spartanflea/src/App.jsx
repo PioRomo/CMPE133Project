@@ -1,15 +1,13 @@
-import './App.css';
-import {Route, Routes} from "react-router-dom"; 
-import LoginPage from './pages/LoginPage';
-import HomePage from './pages/HomePage'
+import './App.css'
+import {Route, Routes} from "react-router-dom";
+import IndexPage from './pages/IndexPage'
 
-function App() {
-  return (
+function App(){
+  return(
     <Routes>
-      <Route index element ={<HomePage />} />
-        <Route path ="/login" element={<LoginPage />} />
+      <Route index element={<IndexPage/>}/>
     </Routes>
   );
-}
 
-export default App;
+}
+export default App
