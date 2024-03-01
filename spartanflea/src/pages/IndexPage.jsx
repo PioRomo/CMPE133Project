@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import RegistrationPage from "./RegistrationPage";
+
 
 export default function IndexPage(){
 
